@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" type="text/css" href="./00-css/00-styles.css">
+    <link id="theme" rel="stylesheet" type="text/css" href="./00-css/green.css">
+
+    <!-- JQery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <!-- Mis Scripts -->
+    <script type="text/javascript" src="./00-js/00-main.js"></script>
+
+    <!-- Momnet -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/locale/es.js"></script>
+
+
+    <title>Proyecto con JavaScript</title>
+</head>
+
+<body>
+
+    <div id="change_theme">
+        <div id="to_green"></div>
+        <div id="to_red"></div>
+        <div id="to_blue"></div>
+    </div>
+
+    <section id="global">
+
+        <!-- Cabecera -->
+        <header>
+            <div id="logo">
+                <h1>Projecto JS</h1>
+            </div>
+
+            <div class="clearfix"></div>
+
+            <nav id="menu">
+                <ul>
+                    <li><a href="00-index.html">Inicio</a></li>
+                    <li><a href="clock.html">Reloj</a></li>
+                    <li><a href="about.html">Sobre mi</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Contenido -->
+        <section id="content">
+            <div id="box">
+                <!-- Cargar Reloj -->
+
+                <div id="reloj">
+
+                </div>
+            </div>
+            <aside id="sidebar">
+                <div id="about">
+                    <h4><span>¿Quien Soy?</span></h4>
+                    <img src="00-imagenes\caracol.jpg" />
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore itaque exercitationem amet neque tempore dicta tenetur minus, officia nostrum. Reprehenderit dolor accusantium dignissimos sequi fugiat beatae ea expedita aliquid perspiciatis?</p>
+                </div>
+
+                <div id="login">
+                    <h4><span id="ValidName">Identificate</span></h4>
+                    <form>
+                        <label for="name">
+                            Nombre
+                        </label>
+                        <input type="text" name="name" id="form_name">
+
+                        <label for="email">
+                            Correo
+                        </label>
+                        <input type="text" name="email">
+
+                        <label for="pass">
+                            Contraseña
+                        </label>
+                        <input type="password" name="pass">
+
+                        <input type="submit" value="Entrar">
+                    </form>
+                </div>
+            </aside>
+            <div class="clearfix"></div>
+        </section>
+    </section>
+    <!-- Footer -->
+    <footer>
+        Master en JS &copy - Carlos Schwarz - NeffeN SA.
+
+        <a id="subir" href="#">Ir Arriba</a>
+    </footer>
+</body>
+
+</html>
